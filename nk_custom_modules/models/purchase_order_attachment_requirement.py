@@ -19,4 +19,4 @@ class PurchaseOrderAttachmentRequirement(models.Model):
         default=1,
         help="Setup with Minimum Number of Document that need to provide",
     )
-    is_mandatory = fields.Boolean("Mandatory")
+    is_mandatory = (fields.Boolean("Mandatory"),)
