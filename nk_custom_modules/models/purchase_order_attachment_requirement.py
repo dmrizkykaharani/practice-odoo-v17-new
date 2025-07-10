@@ -5,7 +5,7 @@ class PurchaseOrderAttachmentRequirement(models.Model):
     _name = "purchase.order.attachment.requirement"
     _description = "Purchase Order Attachment Requirement"
 
-    name = fields.Char("Document Name", required=True, index=True)
+    name = fields.Char("Doc Name", required=True, index=True)
     document_type = fields.Selection(
         [
             ("1_material_purpose", "Material Purpose"),
