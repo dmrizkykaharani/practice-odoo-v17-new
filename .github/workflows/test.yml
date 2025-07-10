@@ -4,10 +4,12 @@ on:
   pull_request:
     branches:
       - "17.0*"
+      - "odoo17_kiki"
   push:
     branches:
       - "17.0"
       - "17.0-ocabot-*"
+      - "odoo17_kiki"
 
 jobs:
   unreleased-deps:
